@@ -1,5 +1,10 @@
 # Sample script for CustomVision's OpenVino Classification model
 
+| Task | Domain | Export Platform | Export Flavor |
+|------|--------|-----------------|---------------|
+| Classification | General (compact) | OpenVino | null |
+| Classification | General (compact) | OpenVino | NoPostProcess |
+
 For the detail of the model export features, please visit [Custom Vision's official documents](https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/).
 
 ## Set up

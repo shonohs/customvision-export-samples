@@ -1,5 +1,11 @@
 # Sample script for CustomVision's ONNX Object Detection model
 
+| Task | Domain | Export Platform | Export Flavor |
+|------|--------|-----------------|---------------|
+| Object Detection | General (compact) [S1] | ONNX | null |
+| Object Detection | General (compact) [S1] | ONNX | OnnxFloat16 |
+
+
 For the detail of the model export features, please visit [Custom Vision's official documents](https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/).
 
 ## Set up
