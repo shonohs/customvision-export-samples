@@ -31,8 +31,8 @@ class Model:
 def print_outputs(outputs):
     assert set(outputs.keys()) == set(['detected_boxes', 'detected_classes', 'detected_scores'])
     for box, class_id, score in zip(outputs['detected_boxes'][0], outputs['detected_classes'][0], outputs['detected_scores'][0]):
-        if score[0] > PROB_THRESHOLD:
-            print(f"Label: {class_id[0]}, Probability: {score[0]:.5f}, box: ({box[0]:.5f}, {box[1]:.5f}) ({box[2]:.5f}, {box[3]:.5f})")
+        if score > PROB_THRESHOLD:
+            print(f"Label: {class_id}, Probability: {score:.5f}, box: ({box[0]:.5f}, {box[1]:.5f}) ({box[2]:.5f}, {box[3]:.5f})")
 
 
 def main():
